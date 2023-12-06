@@ -1,0 +1,72 @@
+h1{
+    color: yellow;
+    font-family: 'Oswald', sans-serif;
+    
+    
+}
+label{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    text-align: center;
+    
+    
+}
+body{
+    
+    background-image: url(images/mario.jpg);
+
+}
+
+.dado{
+    text-align: center;
+}
+button{
+    border:0;
+    background-image: linear-gradient(
+        10deg,
+        #ffff00,
+        #ffffff,
+        #000000
+
+
+    );
+    border-radius: 8px;
+color:#fff;
+display: flex;
+font-size: 18px;
+padding: 4px;
+cursor: pointer;
+transition: .3s;
+}
+
+button label{
+   background-color: #ffff00;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+}
+button:hover label {
+    background: none;
+}
+button:active {
+    transform: scale(1.5)
+}
+.imgd2{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    
+    
+    
+    
+    
+}
+.boton{
+    display: flex;
+    justify-content: center;
+}
+input{
+    margin-left: 18px;
+    margin-right: 18px;
+    
+  }
